@@ -1,0 +1,62 @@
+/*利用網格系統來設計*/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* row用來放col的容器 */
+
+.row {
+    width: 100%;
+}
+
+.row:after {
+    display: block;
+    content: "";
+    clear: both;
+    width: 100%;
+}
+
+[class^="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@mixin grid($device) {
+    @for $i from 1 through 12 {
+        .col-#{$device}-#{$i} {
+            width: calc(100% * #{$i} / 12);
+        }
+    }
+}
+
+
+/* 手機版的grid */
+
+@include grid('xs');
+@media screen and ( min-width: 768px) {
+    /* 平板的grid */
+    @include grid('sm');
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and ( min-width: 992px) {
+    /* 一般電腦寬度grid */
+    @include grid('md');
+    .container {
+        width: 870px;
+    }
+}
+
+@media screen and (min-width: 1200) {
+    /* 大螢幕的grid */
+    @include grid('lg');
+    .container {
+        width: 1170px;
+    }
+}

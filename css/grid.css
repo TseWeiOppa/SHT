@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+/*利用網格系統來設計*/
+
+
+/* container:用來裝row的容器 */
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: ㄚ0%;
+    margin: 0 auto;
+}
+
+
+/* row:用來放col的容器 */
+
+.row {
+    width: 100%;
+}
+
+.row:after {
+    display: block;
+    content: "";
+    clear: both;
+    width: 100%;
+}
+
+[class^="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* 手機版的grid */
+
+.col-xs-1 {
+    width: calc(100% * 1 / 12);
+}
+
+.col-xs-2 {
+    width: calc(100% * 2 / 12);
+}
+
+.col-xs-3 {
+    width: calc(100% * 3 / 12);
+}
+
+.col-xs-4 {
+    width: calc(100% * 4 / 12);
+}
+
+.col-xs-5 {
+    width: calc(100% * 5 / 12);
+}
+
+.col-xs-6 {
+    width: calc(100% * 6 / 12);
+}
+
+.col-xs-7 {
+    width: calc(100% * 7 / 12);
+}
+
+.col-xs-8 {
+    width: calc(100% * 8 / 12);
+}
+
+.col-xs-9 {
+    width: calc(100% * 9 / 12);
+}
+
+.col-xs-10 {
+    width: calc(100% * 10 / 12);
+}
+
+.col-xs-11 {
+    width: calc(100% * 11 / 12);
+}
+
+.col-xs-12 {
+    width: calc(100% * 12 / 12);
+}
+
+@media screen and (min-width: 768px) {
+    /* 平板的grid */
+    .col-sm-1 {
+        width: calc(100% * 1 / 12);
+    }
+    .col-sm-2 {
+        width: calc(100% * 2 / 12);
+    }
+    .col-sm-3 {
+        width: calc(100% * 3 / 12);
+    }
+    .col-sm-4 {
+        width: calc(100% * 4 / 12);
+    }
+    .col-sm-5 {
+        width: calc(100% * 5 / 12);
+    }
+    .col-sm-6 {
+        width: calc(100% * 6 / 12);
+    }
+    .col-sm-7 {
+        width: calc(100% * 7 / 12);
+    }
+    .col-sm-8 {
+        width: calc(100% * 8 / 12);
+    }
+    .col-sm-9 {
+        width: calc(100% * 9 / 12);
+    }
+    .col-sm-10 {
+        width: calc(100% * 10 / 12);
+    }
+    .col-sm-11 {
+        width: calc(100% * 11 / 12);
+    }
+    .col-sm-12 {
+        width: calc(100% * 12 / 12);
+    }
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* 一般電腦寬度grid */
+    .col-md-1 {
+        width: calc(100% * 1 / 12);
+    }
+    .col-md-2 {
+        width: calc(100% * 2 / 12);
+    }
+    .col-md-3 {
+        width: calc(100% * 3 / 12);
+    }
+    .col-md-4 {
+        width: calc(100% * 4 / 12);
+    }
+    .col-md-5 {
+        width: calc(100% * 5 / 12);
+    }
+    .col-md-6 {
+        width: calc(100% * 6 / 12);
+    }
+    .col-md-7 {
+        width: calc(100% * 7 / 12);
+    }
+    .col-md-8 {
+        width: calc(100% * 8 / 12);
+    }
+    .col-md-9 {
+        width: calc(100% * 9 / 12);
+    }
+    .col-md-10 {
+        width: calc(100% * 10 / 12);
+    }
+    .col-md-11 {
+        width: calc(100% * 11 / 12);
+    }
+    .col-md-12 {
+        width: calc(100% * 12 / 12);
+    }
+    .container {
+        width: 870px;
+    }
+}
+
+@media screen and (min-width: 1200) {
+    /* 大螢幕的grid */
+    .col-lg-1 {
+        width: calc(100% * 1 / 12);
+    }
+    .col-lg-2 {
+        width: calc(100% * 2 / 12);
+    }
+    .col-lg-3 {
+        width: calc(100% * 3 / 12);
+    }
+    .col-lg-4 {
+        width: calc(100% * 4 / 12);
+    }
+    .col-lg-5 {
+        width: calc(100% * 5 / 12);
+    }
+    .col-lg-6 {
+        width: calc(100% * 6 / 12);
+    }
+    .col-lg-7 {
+        width: calc(100% * 7 / 12);
+    }
+    .col-lg-8 {
+        width: calc(100% * 8 / 12);
+    }
+    .col-lg-9 {
+        width: calc(100% * 9 / 12);
+    }
+    .col-lg-10 {
+        width: calc(100% * 10 / 12);
+    }
+    .col-lg-11 {
+        width: calc(100% * 11 / 12);
+    }
+    .col-lg-12 {
+        width: calc(100% * 12 / 12);
+    }
+    .container {
+        width: 1170px;
+    }
+}

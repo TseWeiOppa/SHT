@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!--導覽列開始-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+
+
+
+            <!-- 拉到右邊的導覽列清單 -->
+            <ul class="nav navbar-nav navbar-left drop-down-menu">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">歷屆成員 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/page/member_103.html">103學年度</a></li>
+                        <li><a href="/page/member_104.html">104學年度</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">成發影片 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/page/performance_2014.html">2014 海豚歪戀人</a></li>
+                        <li><a href="/page/performance_2015.html">2015 Threesome</a></li>
+                        <li><a href="/page/performance_2016.html">2016 舞線</a></li>
+                        <li><a href="/page/performance_2017.html">2017 MischieVous</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" id="main-navbar">
+                <!--<li><a href="#">連結</a></li>-->
+                <!--(li>a[href="#Section"])*5-->
+                <li><a href="#mushroom">菇菇封面</a></li>
+                <li><a href="#slideshow">照片串集</a></li>
+                <li><a href="#ContactUsSection">聯絡我們</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <!--導覽列結束-->
+    <div class="container " id="mushroom">
+        <header class="jumbotron">
+            <h1 class="title">小海豚MV舞蹈社</h1>
+        </header>
+    </div>
+
+    <br>
+    <!--輪播開始-->
+    <div id="slideshow" class="carousel slide container" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!--輪播圖片或內容-->
+            <div class="item active">
+                <img src="img/13411874_288071141537592_5019372953106480792_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13392128_288011484876891_4510496033616874680_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13417003_288038051540901_531840028881369942_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13415624_288039078207465_4653977627581199599_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13350536_288015844876455_4482064949530926927_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13418566_288009094877130_3919009556841969062_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13433155_288377108173662_6512462154631800957_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13412168_288093238202049_7264147903805588400_o.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="img/13416887_288014358209937_167313532585055559_o.jpg" alt="">
+            </div>
+        </div>
+
+        <!--上一頁 下一頁 按鈕-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+
+        </div>
+        <!--小圓點換頁-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+            <li data-target="#slideshow" data-slide-to="3"></li>
+            <li data-target="#slideshow" data-slide-to="4"></li>
+            <li data-target="#slideshow" data-slide-to="5"></li>
+            <li data-target="#slideshow" data-slide-to="6"></li>
+            <li data-target="#slideshow" data-slide-to="7"></li>
+            <li data-target="#slideshow" data-slide-to="8"></li>
+        </ol>
+    </div>
+    <!--輪播結尾-->
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 item" id="pic1">
+                <a href="/page/introdution_sht.html">
+                  社團簡介 
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-6 item" id="pic2">
+                <a href="https://www.facebook.com/ntushtjump/?fref=ts">
+                   粉絲專頁
+                </a>
+            </div>
+
+            <!-- 修正平板狀態的跑板問題 僅在平板(sm)設定啟用程式碼-->
+
+            <div class="col-md-4 col-sm-6 item" id="pic3">
+                <a href="/page/introdution_tse_wei.html">
+                   站長資料
+                </a>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- note ContactUsSection -->
+    <section id="ContactUsSection">
+        <h1 class="section-title">- CONTACT US -</h1>
+
+        <p class="address">國立台灣大學小海豚MV舞蹈社 │ 10617台北市大安區羅斯福路四段1號 │ b05605029@ntu.edu.tw</p>
+
+
+    </section>
+
+
+
+
+
+</body>
+
+</html>

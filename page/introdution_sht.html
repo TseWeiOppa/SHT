@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>introduction_sht</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Website Demo</title>
+</head>
+
+<!--data-offset填入.navbar的高度-->
+
+<body data-spy="scroll" data-target=".navbar2" data-offset="50">
+    <!-- note nav -->
+    <!--導覽列開始-->
+    <nav class="navbar2 navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar2-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar2">
+                    <span class="sr-only">觸發縮放</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../boostrap_index.html">HOME</a>
+            </div>
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="main-navbar2">
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#">連結</a></li>-->
+                    <!--(li>a[href="#Section"])*5-->
+                    <li><a href="#BrandSpiritSection">Introdutcion</a></li>
+                    <li><a href="#LookBookSection">Performance</a></li>
+                    <li><a href="#ContactUsSection">Contact Information</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+    <!-- note header -->
+    <header id="header" class="jumbotron2">
+        <div class="jumbotron2-content">
+            <h1>SHT</h1>
+            <p>MV DANCING CLUB</p>
+        </div>
+    </header>
+    <!-- note BrandSpiritSection -->
+    <section id="BrandSpiritSection">
+        <h1 class="section-title">- 簡介 -</h1>
+        <!-- note main-features -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <p>我們是MV舞蹈社，顧名思義，是一個專門跳MV舞蹈的社團。</p>
+                    <br>
+                    <p>我們雖然沒有好幾百人的大陣仗，但我們卻是由一群熱愛跳舞的孩子們組成的大家庭。 </p>
+                    <br>
+                    <p>我們的舞風多元，從歐美的MV，到日本、台灣、韓國的MV我們都有涉獵。 </p>
+                    <br>
+                    <p>希望在未來，我們能帶來更多樣、更有創意的演出。</p>
+                    <br>
+                    <br>
+                    <p> We are MV dance club,and our members come from different departments, different downtown, with totally different personality.</p>
+                    <br>
+                    <p> Although we are not a huge club with hundreds of people,what we own in common is the fervent love for dancing.</p>
+                    <br>
+                    <p> Not only America MV, but also Japan, Taiwan, Korea MV dance are we focus on.</p>
+                    <br>
+                    <p> We hope to enhance our horizon to another level and perform more diversely. This is our goal and we will do it!</p>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- note LookBookSection -->
+    <section id="LookBookSection">
+        <h1 class="section-title">- Performance -</h1>
+        <h2 class="sub-section-title">2011-2017</h2>
+        <!--.container>.row>.col-sm-8.col-sm-offset-2 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2" id="lookbook">
+                </div>
+                <div class="col-sm-8 col-sm-offset-2" style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/SWTAf5eyfhg?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- note ContactUsSection -->
+    <section id="ContactUsSection">
+        <h1 class="section-title">- CONTACT INFORMATION -</h1>
+        <div class="social-links">
+            <a href="https://www.facebook.com/ntushtjump/?fref=ts"><i class="wow bounce fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/watch?v=5WB0c4xTzlI&list=PLxUucvdemX9DvyyahfcpE_vBR0UcAV8BX"><i class="wow bounce fa fa-2x fa-youtube" aria-hidden="true"></i></a>
+            <a href="http://activity.osa.ntu.edu.tw/Club/Details/730" id="ig"><i class="wow bounce fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p class="address">國立台灣大學小海豚MV舞蹈社 │ 10617台北市大安區羅斯福路四段1號 │ b05605029@ntu.edu.tw</p>
+
+    </section>
+
+</body>
+
+</html>
