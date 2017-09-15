@@ -60,15 +60,15 @@ ul.drop-down-menu li:hover>ul {
 }
 
 #pic1 {
-    background-image: url('/img/13403973_288014818209891_4315756102874464090_o.jpg');
+    background-image: url('../img/13403973_288014818209891_4315756102874464090_o.jpg');
 }
 
 #pic2 {
-    background-image: url('/img/13422298_288025141542192_2396904436628289225_o.jpg');
+    background-image: url('../img/13422298_288025141542192_2396904436628289225_o.jpg');
 }
 
 #pic3 {
-    background-image: url('/img/13411904_288094608201912_5647933860424844837_o.jpg');
+    background-image: url('../img/13411904_288094608201912_5647933860424844837_o.jpg');
 }
 
 .last {
