@@ -99,6 +99,18 @@ header.jumbotron {
     background-size: cover;
 }
 
+@media screen and ( max-width: 767px) {
+    /* 符合條件 <= 767px 的CSS */
+    header.jumbotron {
+        margin-top: 200px;
+        height: 300px;
+    }
+    header.jumbotron.h1 {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+}
+
 header.jumbotron>h1 {
     color: white;
 }
