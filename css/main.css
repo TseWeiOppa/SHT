@@ -156,6 +156,7 @@ header.jumbotron {
     background-color: $primary;
     height: 400px;
     background-image: url(../img/13724012_302944086716964_3766579477643418016_o.jpg);
+    /*background-image: url(../img/13151596_269442953400411_5766276367498311857_n.jpg);*/
     background-size: cover;
 }
 
@@ -520,7 +521,6 @@ ul.drop-down-menu li:hover>ul {
 
 #photo104_1 {
     background-image: url('../img/18740429_1485982768112176_6603657002496353293_n.jpg');
-    transition: all .8s ease;
 }
 
 #photo104_1:hover {
@@ -669,4 +669,44 @@ ul.drop-down-menu li:hover>ul {
 
 #photo105_10:hover {
     background-image: url('../img/20139618_1415201711878938_2767702933861540346_n.jpg');
+}
+
+@media screen and ( max-width: 767px) {
+    /* 符合條件 <= 767px 的CSS */
+    header.jumbotron {
+        background-color: $primary;
+        background-image: url(../img/13151596_269442953400411_5766276367498311857_n.jpg);
+        background-size: cover;
+    }
+    #main-navbar {
+        display: none;
+    }
+    [id^="pic"]: {
+        height: 310px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        transition: all .5s ease;
+        text-align: center;
+        line-height: 300px;
+        border-radius: 10px;
+    }
+    [id^="pic"]:hover {
+        height: 310px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: grayscale(0%);
+        transition: all .5s ease;
+        text-align: center;
+        line-height: 300px;
+    }
+    [id^="photo10"] {
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all .8s ease;
+        text-align: center;
+        line-height: 300px;
+        border-radius: 10px;
+    }
 }
