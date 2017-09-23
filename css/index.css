@@ -102,8 +102,14 @@ header.jumbotron {
 @media screen and ( max-width: 767px) {
     /* 符合條件 <= 767px 的CSS */
     header.jumbotron {
-        margin-top: 100px;
-        height: 300px;
+        margin-top: 70px;
+        background-color: $primary;
+        height: 400px;
+        background-image: url(../img/16831863_1274844605914650_4840698460731819010_n.jpg);
+        background-size: cover;
+    }
+    .title {
+        display: none;
     }
     header.jumbotron.h1 {
         padding-top: 0px;
