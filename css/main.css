@@ -160,6 +160,20 @@ header.jumbotron {
     background-size: cover;
 }
 
+header.jumbotron98 {
+    background-color: $primary;
+    height: 400px;
+    background-image: url(../img/304077_2619263560238_997335161_n.jpg);
+    background-size: cover;
+}
+
+header.jumbotron99 {
+    background-color: $primary;
+    height: 400px;
+    background-image: url(../img/563863_417041631656416_1770232995_n.jpg);
+    background-size: cover;
+}
+
 header.jumbotron100 {
     background-color: $primary;
     height: 400px;
@@ -530,6 +544,16 @@ ul.drop-down-menu li:hover>ul {
 
 /*member*/
 
+[id^="photo9"] {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .8s ease;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 10px;
+}
+
 [id^="photo10"] {
     height: 400px;
     background-size: cover;
@@ -538,6 +562,118 @@ ul.drop-down-menu li:hover>ul {
     text-align: center;
     line-height: 300px;
     border-radius: 10px;
+}
+
+#photo98_1 {
+    background-image: url('../img/21743212_1537479592942067_7699118682373151001_n.jpg');
+}
+
+#photo98_1:hover {
+    background-image: url('../img/314380_287026941320678_754336815_n.jpg');
+}
+
+#photo98_2 {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo98_2:hover {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo98_3 {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo98_3:hover {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo98_4 {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo98_4:hover {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo99_1 {
+    background-image: url('../img/20155869_1508379139220096_4860057613776239088_n.jpg');
+}
+
+#photo99_1:hover {
+    background-image: url('../img/16997736_1364827570241921_5798033484311962929_n.jpg');
+}
+
+#photo99_2 {
+    background-image: url('../img/19554235_1669062826451354_2141334466152971107_n.jpg');
+}
+
+#photo99_2:hover {
+    background-image: url('../img/541919_529860733704908_823382297_n.jpg');
+}
+
+#photo99_3 {
+    background-image: url('../img/13924820_1223312341052620_41473530085035241_n.jpg');
+}
+
+#photo99_3:hover {
+    background-image: url('../img/10487483_795541207163071_3916909418917988525_n.jpg');
+}
+
+#photo99_4 {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo99_4:hover {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo99_5 {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo99_5:hover {
+    background-image: url('../img/398811_119357604867137_1615337538_n.jpg');
+}
+
+#photo99_6 {
+    background-image: url('../img/19598982_10213956291600781_1876592267895273482_n.jpg');
+}
+
+#photo99_6:hover {
+    background-image: url('../img/378868_2806835529420_208564962_n.jpg');
+}
+
+#photo99_7 {
+    background-image: url('../img/21314283_10214114826570813_2065980506371069259_n.jpg');
+}
+
+#photo99_7:hover {
+    background-image: url('../img/15697849_10211674271558463_1815478647671253588_n.jpg');
+}
+
+#photo99_8 {
+    background-image: url('../img/17795677_1424815127538673_193957723850636130_n.jpg');
+}
+
+#photo99_8:hover {
+    background-image: url('../img/5953_579963695357158_515377785_n.jpg');
+}
+
+#photo99_9 {
+    background-image: url('../img/15283982_1246028282124763_3736652718207428279_n.jpg');
+}
+
+#photo99_9:hover {
+    background-image: url('../img/544982_373481406046126_1686381456_n.jpg');
+}
+
+#photo99_10 {
+    background-image: url('../img/17264560_10206602105731252_529191730918120131_n.jpg');
+}
+
+#photo99_10:hover {
+    background-image: url('../img/313172_1875033415471_223296609_n.jpg');
 }
 
 #photo100_1 {
@@ -995,6 +1131,16 @@ ul.drop-down-menu li:hover>ul {
         background-image: url(../img/12973263_1078455645510237_7262741056241918321_o.jpg);
         background-size: cover;
     }
+    header.jumbotron98 {
+        background-color: $primary;
+        background-image: url(../img/319034_214523871938969_3082711_n.jpg);
+        background-size: cover;
+    }
+    header.jumbotron99 {
+        background-color: $primary;
+        background-image: url(../img/552213_417042704989642_390877309_n.jpg);
+        background-size: cover;
+    }
     header.jumbotron100 {
         background-color: $primary;
         background-image: url(../img/483727_618816168145627_202277042_n.jpg);
@@ -1049,6 +1195,15 @@ ul.drop-down-menu li:hover>ul {
         line-height: 300px;
     }
     [id^="photo10"] {
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all .8s ease;
+        text-align: center;
+        line-height: 300px;
+        border-radius: 10px;
+    }
+    [id^="photo9"] {
         height: 250px;
         background-size: cover;
         background-repeat: no-repeat;
