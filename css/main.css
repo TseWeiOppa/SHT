@@ -237,6 +237,20 @@ header.jumbotron2014 {
     background-size: cover;
 }
 
+header.jumbotron2013 {
+    background-color: $primary;
+    height: 400px;
+    background-image: url(../img/459710_130488330479569_1313896282_o.jpg);
+    background-size: cover;
+}
+
+header.jumbotron2012 {
+    background-color: $primary;
+    height: 400px;
+    background-image: url(../img/564992_119358624867035_783407749_n.jpg);
+    background-size: cover;
+}
+
 header.jumbotron>h1 {
     color: white;
 }
@@ -539,6 +553,25 @@ ul.drop-down-menu li:hover>ul {
 
 .dropdown>a {
     font-size: 18px;
+}
+
+
+/*movie*/
+
+.movie_RWD {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.movie_RWD iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -1166,10 +1199,40 @@ ul.drop-down-menu li:hover>ul {
         background-image: url(../img/20139615_1012390482196592_5658297754340076236_n.jpg);
         background-size: cover;
     }
+    header.jumbotron2012 {
+        margin-top: 130px;
+        background-color: $primary;
+        background-image: url(../img/398811_119357604867137_1615337538_n.jpg);
+        background-size: cover;
+    }
+    header.jumbotron2013 {
+        margin-top: 130px;
+        background-color: $primary;
+        background-image: url(../img/945044_130486413813094_2015676704_n.jpg);
+        background-size: cover;
+    }
+    header.jumbotron2014 {
+        margin-top: 130px;
+        background-color: $primary;
+        background-image: url(../img/1797467_563941643718947_3579827148800719328_n.jpg);
+        background-size: cover;
+    }
+    header.jumbotron2015 {
+        margin-top: 130px;
+        background-color: $primary;
+        background-image: url(../img/11053923_1441649036129959_217477397860438680_n.jpg);
+        background-size: cover;
+    }
     header.jumbotron2016 {
-        margin-top: 100px;
+        margin-top: 130px;
         background-color: $primary;
         background-image: url(../img/13151596_269442953400411_5766276367498311857_n.jpg);
+        background-size: cover;
+    }
+    header.jumbotron2017 {
+        margin-top: 100px;
+        background-color: $primary;
+        background-image: url(../img/18198561_674436116091064_8075297630629941307_n.jpg);
         background-size: cover;
     }
     #main-navbar {
